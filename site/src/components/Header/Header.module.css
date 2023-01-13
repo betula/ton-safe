@@ -1,0 +1,24 @@
+
+.container {
+  display: flex;
+}
+
+.ul {
+  list-style: none;
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  padding: 8px;
+  margin: 2px;
+  justify-content: end;
+}
+
+.li {
+  list-style: none;
+}
+
+.link {
+  color: var(--color-primary-100);
+  font-family: var(--font-primary);
+  text-decoration: none;
+}

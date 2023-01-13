@@ -12,21 +12,8 @@ import s from './Footer.module.css';
 export const Footer = component(() => {
 
   return (
-    <nav>
-      <ul className={s.ul}>
-        <li className={s.li}>
-          <Link className={s.link} route={provide(HomeRoute)}>{translation.Home}</Link>
-        </li>
-        <li className={s.li}>
-          <Link className={s.link} route={provide(TermsOfUseRoute)}>{translation.TermsOfUse}</Link>
-        </li>
-        <li className={s.li}>
-          <Link className={s.link} route={provide(PrivacyPolicyRoute)}>{translation.PrivacyPolicy}</Link>
-        </li>
-        <li className={s.li}>
-          <Link className={s.link} route={provide(SupportRoute)}>{translation.Support}</Link>
-        </li>
-      </ul>
-    </nav>
+    <footer>
+      &copy; {translation.TonSafeApp}
+    </footer>
   )
 });

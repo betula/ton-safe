@@ -1,13 +1,10 @@
 
 .footerContainer {
-  display: flex;
-  align-items: flex-end;
-  flex-direction: column;
-  padding: 16px;
+  max-width: 768px;
+  margin: 0 auto;
 }
 
-.langSelector {
-  position: absolute;
-  top: 16px;
-  right: 16px;
+.headerContainer {
+  max-width: 768px;
+  margin: 0 auto;
 }
