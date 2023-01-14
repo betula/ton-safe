@@ -15,7 +15,6 @@
   "MultisigVault_Text": "Increased security: multiple keys are required to authorize a transaction.",
   "Browser": "Browser",
   "Browser_Text": "Browser for TON sites and DeFi ecosystem.",
-  "GetItNow": "Get it now on  AppStore or GooglePlay",
-  "Copyrights": "© TON Safe app",
-  "FollowUs": "Follow us"
+  "GetItNow": "Get it now on AppStore or GooglePlay",
+  "ComingSoonOnStores": "Coming soon on AppStore and GooglePlay"
 }

@@ -1,0 +1,31 @@
+.footer {
+  margin-top: 72px;
+  padding-bottom: 36px;
+  display: flex;
+  justify-content: space-between;
+}
+.copy {
+  font-size: 18px;
+}
+.info {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.info img {
+  height: 30px;
+}
+.info a {
+  color: var(--color-primary);
+  font-size: 18px;
+  text-decoration: none;
+  display: flex;
+}
+.info a:hover,
+.info a:active,
+.info a:visited {
+  color: var(--color-primary);
+}
+.info a:hover {
+  text-decoration: underline;
+}

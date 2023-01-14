@@ -8,10 +8,15 @@ import s from './Home.module.css';
 import phoneImage from './assets/phone.jpg';
 import storesImage from './assets/stores.png';
 
+import boxWalletsImage from './assets/wallets.svg';
+import boxStakingImage from './assets/staking.svg';
+import boxNftImage from './assets/nft.svg';
+import boxSwapImage from './assets/swap.svg';
+import boxMultisigImage from './assets/multisig.svg';
+import boxBrowserImage from './assets/browser.svg';
+
 export const Home = component(() => {
   const { doc, text } = provide(HomeLogic);
-
-  console.log(text.json);
 
   return (
     <Layout>
@@ -42,32 +47,86 @@ export const Home = component(() => {
 
         <div className={s.boxes}>
           <div className={s.box}>
-
+            <div className={s.boxImage}>
+              <img src={boxWalletsImage} />
+            </div>
+            <div className={s.boxTitle}>
+              {text.json.MultipleWallets}
+            </div>
+            <div className={s.boxText}>
+              {text.json.MultipleWallets_Text}
+            </div>
           </div>
           <div className={s.box}>
-
+            <div className={s.boxImage}>
+              <img src={boxStakingImage} />
+            </div>
+            <div className={s.boxTitle}>
+              {text.json.Staking}
+            </div>
+            <div className={s.boxText}>
+              {text.json.Staking_Text}
+            </div>
           </div>
           <div className={s.box}>
-
+            <div className={s.boxImage}>
+              <img src={boxNftImage} />
+            </div>
+            <div className={s.boxTitle}>
+              {text.json.NFT}
+            </div>
+            <div className={s.boxText}>
+              {text.json.NFT_Text}
+            </div>
           </div>
           <div className={s.box}>
-
+            <div className={s.boxImage}>
+              <img src={boxSwapImage} />
+            </div>
+            <div className={s.boxTitle}>
+              {text.json.Swap}
+            </div>
+            <div className={s.boxText}>
+              {text.json.Swap_Text}
+            </div>
           </div>
           <div className={s.box}>
-
+            <div className={s.boxImage}>
+              <img src={boxMultisigImage} />
+            </div>
+            <div className={s.boxTitle}>
+              {text.json.MultisigVault}
+            </div>
+            <div className={s.boxText}>
+              {text.json.MultisigVault_Text}
+            </div>
           </div>
           <div className={s.box}>
-
+            <div className={s.boxImage}>
+              <img src={boxBrowserImage} />
+            </div>
+            <div className={s.boxTitle}>
+              {text.json.Browser}
+            </div>
+            <div className={s.boxText}>
+              {text.json.Browser_Text}
+            </div>
           </div>
         </div>
       </div>
 
+      <div className={s.final}>
+        <div className={s.finalTitle}>
+          {text.json.ComingSoonOnStores}
+        </div>
 
-      <div className={s.container}>
-        {Object.keys(text.json).map((key) =>
-          <p>{text.json[key]}</p>
-        )}
-        <FormattedText text={doc.text} />
+        <div className={s.finalStores}>
+          <img src={storesImage} />
+        </div>
+
+        <div className={s.finalText}>
+          <FormattedText text={doc.text} />
+        </div>
       </div>
     </Layout>
   )
