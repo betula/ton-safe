@@ -17,6 +17,7 @@ import boxBrowserImage from './assets/browser.svg';
 
 export const Home = component(() => {
   const { doc, text } = provide(HomeLogic);
+  if (!text.json) return null;
 
   return (
     <Layout>
