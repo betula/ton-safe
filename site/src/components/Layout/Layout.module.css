@@ -4,17 +4,13 @@ Desktop: 960,
 DesktopLarge: 1170, */
 
 
-.footerContainer {
-  max-width: 960px;
-  margin: 0 auto;
-}
-
-.middleContainer {
-  max-width: 960px;
-  margin: 0 auto;
-}
-
+.footerContainer,
+.middleContainer,
 .headerContainer {
   max-width: 960px;
   margin: 0 auto;
+
+  /* box-sizing: border-box; */
+  padding: 0 24px;
 }
+

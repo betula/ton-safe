@@ -13,14 +13,16 @@ type Props = {
 export const Layout = ({ children, className }: Props) => {
   return (
     <Theme>
-      <div className={s.headerContainer}>
-        <Header />
-      </div>
-      <div className={cx(s.middleContainer, className)}>
-        {children}
-      </div>
-      <div className={s.footerContainer}>
-        <Footer />
+      <div className={s.container}>
+        <div className={s.headerContainer}>
+          <Header />
+        </div>
+        <div className={cx(s.middleContainer, className)}>
+          {children}
+        </div>
+        <div className={s.footerContainer}>
+          <Footer />
+        </div>
       </div>
     </Theme>
   )

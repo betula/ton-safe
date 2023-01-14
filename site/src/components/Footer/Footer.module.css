@@ -29,3 +29,17 @@
 .info a:hover {
   text-decoration: underline;
 }
+
+
+
+/*
+  Responsive
+*/
+
+@media only screen and (max-width: 700px) {
+  /* mobile version */
+  .footer {
+    margin-top: 48px;
+  }
+
+}

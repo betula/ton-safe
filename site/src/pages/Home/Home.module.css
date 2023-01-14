@@ -17,6 +17,7 @@
 .ultimateTonWallet {
   margin-top: 88px;
   font-size: 56px;
+  text-align: center;
 }
 .designedSecure {
   margin-top: 56px;
@@ -40,7 +41,6 @@
   position: relative;
 }
 
-
 /*
   Features
 */
@@ -58,6 +58,7 @@
   display: flex;
   gap: 42px;
   flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 .box {
@@ -120,4 +121,48 @@
   padding: 24px 42px 32px;
   box-sizing: border-box;
   border-radius: 16px;
+}
+
+
+/*
+  Responsive
+*/
+
+@media only screen and (max-width: 700px) {
+  /* mobile version */
+  .top {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 24px;
+  }
+  .topRightSide {
+    order: 0;
+
+    height: 390px;
+    overflow: hidden;
+  }
+  .topLeftSide {
+    order: 1;
+  }
+  .ultimateTonWallet {
+    margin-top: 22px;
+    font-size: 38px;
+  }
+  .designedSecure {
+    margin-top: 36px;
+    font-size: 26px;
+  }
+  .featuresTitle {
+    font-size: 36px;
+  }
+  .finalStores img {
+    width: calc(538px * 0.6);
+    height: calc(103px * 0.6);
+  }
+  .finalText {
+    margin: 42px auto 14px;
+    padding: 8px 12px 22px;
+    width: 90%;
+    box-sizing: border-box;
+  }
 }
