@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 62.98 62.98">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #0d72b9;
+        stroke: #0d72b9;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 5px;
+      }
+
+      .cls-2 {
+        fill: #1b1464;
+        stroke: #1b1464;
+      }
+
+      .cls-3 {
+        fill: #29a9e1;
+        stroke: #29abe2;
+      }
+
+      .cls-4 {
+        fill: none;
+        stroke: #0071bc;
+      }
+    </style>
+  </defs>
+  <g id="p2_-_logos" data-name="p2 - logos">
+    <g>
+      <rect class="cls-3" x="2.5" y="2.5" width="25.5" height="25.5"/>
+      <rect class="cls-1" x="34.99" y="2.5" width="25.5" height="25.5"/>
+      <rect class="cls-4" x="2.5" y="34.99" width="25.5" height="25.5"/>
+      <rect class="cls-2" x="34.99" y="34.99" width="25.5" height="25.5"/>
+    </g>
+  </g>
+</svg>

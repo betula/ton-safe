@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 62.45 64.03">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #26a7df;
+        stroke: #26a7df;
+      }
+
+      .cls-1, .cls-2 {
+        stroke-miterlimit: 10;
+        stroke-width: 10px;
+      }
+
+      .cls-2 {
+        fill: #2a3b8e;
+        stroke: #2a3b8e;
+      }
+    </style>
+  </defs>
+  <g id="p2_-_logos" data-name="p2 - logos">
+    <g>
+      <polygon class="cls-1" points="15.65 54.03 8.66 41.92 22.64 41.92 15.65 54.03"/>
+      <g>
+        <line class="cls-1" x1="15.65" y1="10" x2="15.65" y2="41.92"/>
+        <line class="cls-2" x1="46.8" y1="54.03" x2="46.8" y2="22.11"/>
+      </g>
+      <polygon class="cls-2" points="46.8 10 39.81 22.11 53.79 22.11 46.8 10"/>
+    </g>
+  </g>
+</svg>

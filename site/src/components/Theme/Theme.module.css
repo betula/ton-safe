@@ -1,5 +1,6 @@
 
 .defaultTheme {
+  --color-primary: rgb(0,0,0);
   --color-primary-100: rgba(90, 85, 82, 0.8);
   --font-primary: 'PT Sans';
 }

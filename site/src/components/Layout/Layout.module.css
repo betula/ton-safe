@@ -1,10 +1,20 @@
+/* Tablet: 480,
+TabletLarge: 768,
+Desktop: 960,
+DesktopLarge: 1170, */
+
 
 .footerContainer {
-  max-width: 768px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.middleContainer {
+  max-width: 960px;
   margin: 0 auto;
 }
 
 .headerContainer {
-  max-width: 768px;
+  max-width: 960px;
   margin: 0 auto;
 }
