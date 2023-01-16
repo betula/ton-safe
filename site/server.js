@@ -81,7 +81,7 @@ export async function createServer(
         template = indexProd
 
         // @ts-ignore
-        main = (await import('./dist/server/entry-server.js')).main;
+        main = (await import('./dist/server/entry-server.cjs')).main;
       }
 
       const answer = await main(
